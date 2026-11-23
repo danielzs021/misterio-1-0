@@ -1,1 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🔥 Mistério 1.0</title>
 
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0d0d0d;
+    color:#fff;
+}
+
+header{
+    background:linear-gradient(135deg,#ff5e00,#ff9900);
+    text-align:center;
+    padding:40px 20px;
+    border-radius:0 0 25px 25px;
+}
+
+header h1{
+    font-size:2rem;
+}
+
+header p{
+    margin-top:10px;
+}
+
+.stats{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+    padding:20px;
+}
+
+.stat{
+    background:#1a1a1a;
+    border:1px solid #ff6a00;
+    border-radius:15px;
+    width:110px;
+    text-align:center;
+    padding:15px;
+}
+
+.hero{
+    padding:20px;
+    text-align:center;
+}
+
+.hero h2{
+    color:#ff9900;
+    margin-bottom:10px;
+}
+
+.section-title{
+    color:#ff9900;
+    text-align:center;
+    margin:25px 0;
+}
+
+.rank{
+    margin:10px;
+    padding:15px;
+    border-radius:15px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.gold{
+    background:#f7c600;
+    color:black;
+}
+
+.silver{
+    background:#d9d9d9;
+    color:black;
+}
+
+.bronze{
+    background:#cd7f32;
+    color:black;
+}
+
+.card{
+    background:#1a1a1a;
+    margin:15px;
+    padding:20px;
+    border-radius:15px;
+    border:1px solid #ff6a00;
+}
+
+.card h3{
+    color:#ff9900;
+    margin-bottom:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:10px;
+    background:#ff6a00;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:10px;
+}
+
+.bottom-nav{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background:#111;
+    display:flex;
+    justify-content:space-around;
+    padding:12px 0;
+    border-top:1px solid #333;
+}
+
+.bottom-nav a{
+    color:white;
+    text-decoration:none;
+    font-size:12px;
+    text-align:center;
+}
+
+.space{
+    height:80px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🔥 MISTÉRIO 1.0 🔥</h1>
+    <p>Portal Oficial da Guilda Free Fire</p>
+</header>
+
+<section class="stats">
+    <div class="stat">
+        <h2>48</h2>
+        <p>Membros</p>
+    </div>
+
+    <div class="stat">
+        <h2>15450</h2>
+        <p>Honras</p>
+    </div>
+
+    <div class="stat">
+        <h2>3</h2>
+        <p>Eventos</p>
+    </div>
+</section>
+
+<section id="home" class="hero">
+    <h2>Bem-vindo à Mistério 1.0</h2>
+    <p>Acompanhe rankings, eventos e premiações da guilda.</p>
+</section>
+
+<section id="ranking">
+    <h2 class="section-title">🏆 Ranking</h2>
+
+    <div class="rank gold">
+        🥇 JogadorX - 2500 Honras
+    </div>
+
+    <div class="rank silver">
+        🥈 JogadorY - 2200 Honras
+    </div>
+
+    <div class="rank bronze">
+        🥉 JogadorZ - 2000 Honras
+    </div>
+</section>
+
+<section id="premios">
+
+    <h2 class="section-title">🎁 Premiações</h2>
+
+    <div class="card">
+        <h3>🎫 Passe de Elite</h3>
+        <p>Top 1 do mês</p>
+    </div>
+
+    <div class="card">
+        <h3>💎 500 Diamantes</h3>
+        <p>Top 2 do mês</p>
+    </div>
+
+    <div class="card">
+        <h3>💸 PIX R$20</h3>
+        <p>Top 3 do mês</p>
+    </div>
+
+</section>
+
+<section id="eventos">
+
+    <h2 class="section-title">📅 Eventos</h2>
+
+    <div class="card">
+
+        <h3>🔥 Campeonato Mistério</h3>
+
+        <p>30/11/2026 - 20:00</p>
+
+        <a href="#" class="btn">Participar</a>
+
+    </div>
+
+</section>
+
+<section id="perfil">
+
+    <h2 class="section-title">👤 Perfil</h2>
+
+    <div class="card">
+
+        <h3>JogadorX</h3>
+
+        <p>Cargo: Líder</p>
+
+        <p>Honras: 2500</p>
+
+        <p>ID: 123456789</p>
+
+    </div>
+
+</section>
+
+<div class="space"></div>
+
+<nav class="bottom-nav">
+    <a href="#home">🏠<br>Home</a>
+    <a href="#ranking">🏆<br>Ranking</a>
+    <a href="#premios">🎁<br>Prêmios</a>
+    <a href="#eventos">📅<br>Eventos</a>
+    <a href="#perfil">👤<br>Perfil</a>
+</nav>
+
+</body>
+</html>
